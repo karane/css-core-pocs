@@ -1,0 +1,32 @@
+/* CSS applies style rules as: selector { property: value; } */
+
+/* The h1 element (selector) gets the following styles: */
+h1 {
+  color: blue;                /* property: text color */
+  font-size: 36px;            /* property: size of text */
+  text-align: center;         /* property: horizontal alignment */
+}
+
+/* The paragraph element */
+p {
+  color: #333333;             /* property: text color (hex value) */
+  background-color: #f0f0f0;  /* property: background color */
+  padding: 10px;              /* property: inner space */
+  border-radius: 5px;         /* property: rounded corners */
+}
+
+/* The button element */
+button {
+  background-color: green;    /* property: background color */
+  color: white;               /* property: text color */
+  border: none;               /* property: remove border */
+  padding: 10px 20px;         /* property: inner space (top-bottom, left-right) */
+  border-radius: 5px;         /* property: round the edges */
+  cursor: pointer;            /* property: pointer on hover */
+}
+
+/* Make the button bigger and change color on hover */
+button:hover {
+  background-color: darkgreen;
+  transform: scale(1.2); /* 1.0 = normal size, 1.2 = 20% bigger */
+}
