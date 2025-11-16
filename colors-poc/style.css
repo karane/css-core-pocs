@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Common box styles */
+.color-box {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  border: 2px solid #333;
+}
+
+/* Color examples */
+.named {
+  background-color: LightSalmon;  /* named color */
+  color: black;
+}
+
+.hex {
+  background-color: #FF6347;      /* hex */
+}
+
+.rgb {
+  background-color: rgb(255, 99, 71); /* RGB */
+}
+
+.rgba {
+  background-color: rgba(255, 99, 71, 0.5); /* RGBA with transparency */
+  color: black;
+}
+
+.hsl {
+  background-color: hsl(9, 100%, 64%); /* HSL */
+}
+
+.hsla {
+  background-color: hsla(9, 100%, 64%, 0.5); /* HSLA with transparency */
+  color: black;
+}
